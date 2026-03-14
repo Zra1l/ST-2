@@ -1,8 +1,8 @@
 // Copyright 2022 UNN-CS
 #define _USE_MATH_DEFINES
 #include <cstdint>
-#include "circle.h"
 #include <cmath>
+#include "circle.h"
 
 Circle::Circle(double r) {
     setRadius(r);

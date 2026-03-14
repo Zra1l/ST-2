@@ -9,7 +9,6 @@ double Rope() {
     double nFerence = rope.getFerence() + 1.0;
     rope.setFerence(nFerence);
     return rope.getRadius() - earth;
-
 }
 
 double Pool() {
@@ -18,7 +17,7 @@ double Pool() {
 
     Circle pool(rPool);
     Circle road(rPool + rRoad);
-    
+
     double priceOgrada = road.getFerence() * 2000.0;
     double priceDoroga = (road.getArea() - pool.getArea()) * 1000.0;
     return priceOgrada + priceDoroga;
