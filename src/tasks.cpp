@@ -1,9 +1,9 @@
+// Copyright 2022 UNN-CS
 #include "tasks.h"
 #include <cmath>
 #include "circle.h"
 
-double Rope()
-{
+double Rope() {
     double earth = 6378100.0;
     Circle rope(earth);
     double nFerence = rope.getFerence() + 1.0;
@@ -12,8 +12,7 @@ double Rope()
 
 }
 
-double Pool()
-{
+double Pool() {
     double rPool = 3.0;
     double rRoad = 1.0;
 

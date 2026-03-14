@@ -68,7 +68,7 @@ TEST(CircleTest, ConsistencyTest) {
 }
 
 TEST(CircleTest, NegativeRadiusTest) {
-    Circle c(-1.0); 
+    Circle c(-1.0);
     EXPECT_LE(c.getRadius(), 0.0);
 }
 
