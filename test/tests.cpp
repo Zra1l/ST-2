@@ -3,6 +3,7 @@
 #include <gtest/gtest.h>
 #include <cstdint>
 #include "circle.h"
+#include "tasks.h"
 
 TEST(CircleTest, RadiusSet) {
     Circle c(5.0);
